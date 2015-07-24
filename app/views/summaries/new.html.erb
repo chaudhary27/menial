@@ -1,0 +1,8 @@
+<h1>Hey Menial - what up!</h1>
+<%= simple_form_for @summarie do |s| %>
+	<%= s.input :work %>
+	<%= s.input :help %>
+	<%= s.input :name %>
+	<br />
+	<%= s.submit 'Create', :class => 'btn-btn-danger' %>
+	<% end %>
